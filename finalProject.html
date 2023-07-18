@@ -10,24 +10,99 @@
 <body>
    
 
-<form>
+<h1>Weekly Meal Plan</h1>
+<table id="mealPlanTable">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Breakfast</th>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>Snack #1</th>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>Lunch</th>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>Snack #2</th>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>Dinner</th>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+       
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  
+  <form id="userInfo">
 
-<label for="name">Name:</label>
-<input type="text" id="name" required>
-<br>
-<br>
-<label for="email">Email:</label>
-<input type="text" id="email" required>
-<br>
-<br>
-<label for="goal">Weekly Goal:</label>
-<textarea id="goal" required></textarea>
-<br>
-
-<button type="button"></button>
-<button type="button"></button>
+    <h3>User Information</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" required>
+    <br>
+    <br>
+    <label for="goal">Weekly Goal:</label>
+    <textarea id="goal"></textarea>
+    <br>
+    
+    </form>
+  <br>
+  <div class="center">
+<button type="button" id="create-btn">Create Meal Plan</button>
+<button type="button" id="clear-btn">Clear</button>
+  </div>
 </form>
-
 
 </body>
 

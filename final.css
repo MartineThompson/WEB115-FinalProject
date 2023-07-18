@@ -4,3 +4,47 @@
     width:100%;
     background-position: center;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 3px solid darkorange;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #434240;
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #434240;
+  }
+#userInfo{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+button{
+    background-color: darkorange;
+    padding:10px;
+    font-size: 15px;
+    margin:2px;
+    border: 2px solid #434240;
+
+}
+h3{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #434240;
+}
